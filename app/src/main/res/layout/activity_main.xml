@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background_gradient"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -14,9 +15,10 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="Contacts"
+        android:textSize="40sp"
         android:textStyle="bold|italic"
         android:textColor="#fff"
-        android:background="@color/design_default_color_primary"
+        android:background="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"
+        android:textColor="#fff"
         android:inputType="text"
         android:id="@+id/etname"/>
 
@@ -34,6 +37,7 @@
         android:layout_height="wrap_content"
         android:hint="Phone No"
         android:inputType="number"
+        android:textColor="#fff"
         android:id="@+id/etno"/>
 
     <Button
